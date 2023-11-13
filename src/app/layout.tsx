@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="overflow-auto p-0 transition duration-700 bg-black">
+        <div className="p-0 transition duration-700 bg-black">
           <div className="absolute inset-x-0 top-0 select-none">
             <div className="relative h-[550px] w-full overflow-hidden">
               <img

@@ -1,6 +1,6 @@
 export default function Introduction() {
   return (
-    <section>
+    <section className="md:pt-16">
       <div className="relative z-10">
         <div className="w-full md:w-8/12">
           <div className="mb-8">
@@ -32,6 +32,11 @@ export default function Introduction() {
             </a>
           </div>
         </div>
+        <img
+          src="./images/avatar.png"
+          alt="avatar"
+          className="absolute md:right-[-32px] md:top-[-64px] lg:right-0 lg:-top-20 -z-10 hidden md:block"
+        />
       </div>
     </section>
   );
